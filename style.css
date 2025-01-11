@@ -1,0 +1,320 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  .header {
+    padding: 24px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .icon {
+    width: 32px;
+    height: 32px;
+    color: #1d4ed8; /* Primary color */
+  }
+  
+  .brand-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1d4ed8;
+    margin-left: 8px;
+  }
+  
+  /* Navigation Styles */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #374151; /* Gray-800 */
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: #1d4ed8; /* Primary color */
+  }
+  
+  
+  /* Hero Section Styles */
+  .hero {
+    padding: 80px 16px;
+    background-color: #f3f4f6; /* Muted background */
+    text-align: center;
+  }
+  
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Hero Title */
+  .hero-title {
+    font-size: 2.25rem; /* 4xl equivalent */
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #000; /* Default text color */
+  }
+  
+  @media (min-width: 640px) {
+    .hero-title {
+      font-size: 3rem; /* 5xl equivalent */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: 3.75rem; /* 6xl equivalent */
+    }
+  }
+  
+  /* Hero Subtitle */
+  .hero-subtitle {
+    font-size: 1.25rem; /* xl equivalent */
+    margin-bottom: 32px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #6b7280; /* Muted foreground color */
+  }
+  
+  /* Buttons */
+  .button-group {
+    display: inline-flex;
+    gap: 16px;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #1d4ed8; /* Primary color */
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2563eb; /* Darker shade for hover */
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    color: #1d4ed8; /* Primary color */
+    border: 2px solid #1d4ed8;
+  }
+  
+  .btn-outline:hover {
+    background-color: #1d4ed8;
+    color: #fff;
+  }
+
+  /* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 80px 16px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Features Title */
+  .features-title {
+    font-size: 2rem; /* 3xl equivalent */
+    font-weight: bold;
+    margin-bottom: 48px;
+    color: #000;
+  }
+  
+  /* Features Grid */
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  @media (min-width: 768px) {
+    .features-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Feature Card */
+  .feature-card {
+    text-align: center;
+  }
+  
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    color: #1d4ed8; /* Primary color */
+    margin: 0 auto 16px;
+  }
+  
+  .feature-title {
+    font-size: 1.25rem; /* xl equivalent */
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #000;
+  }
+  
+  .feature-description {
+    font-size: 1rem;
+    color: #6b7280; /* Muted foreground color */
+  }
+  
+  /* CTA Section */
+  .cta {
+    padding: 80px 16px;
+    background-color: #1d4ed8; /* Primary background color */
+    color: #ffffff; /* Primary foreground color */
+    text-align: center;
+  }
+  
+  .container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* CTA Title */
+  .cta-title {
+    font-size: 1.875rem; /* 3xl equivalent */
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  /* CTA Description */
+  .cta-description {
+    font-size: 1.25rem; /* xl equivalent */
+    margin-bottom: 32px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* CTA Button */
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.125rem; /* lg equivalent */
+    font-weight: bold;
+    color: #1d4ed8; /* Secondary button text color */
+    background-color: #ffffff; /* Secondary button background */
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #cbd5e1; /* Lighter background on hover */
+    color: #1d4ed8; /* Maintain primary color for text */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    padding: 32px 16px;
+    border-top: 1px solid #e5e7eb; /* Gray-200 */
+    background-color: #ffffff;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .footer-section {
+    text-align: left;
+  }
+  
+  .footer-heading {
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-link {
+    font-size: 0.875rem; /* Text-sm equivalent */
+    color: #374151; /* Gray-700 */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #1d4ed8; /* Primary color */
+  }
+  
+  .footer-bottom {
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid #e5e7eb; /* Gray-200 */
+    text-align: center;
+  }
+  
+  .footer-copy {
+    font-size: 0.875rem;
+    color: #6b7280; /* Gray-500 */
+  }
+  
+  
